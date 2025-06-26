@@ -1,0 +1,36 @@
+{
+  "name": "mpcm-lite",
+  "version": "1.0.0",
+  "description": "MPCM-Lite - Lightweight AI orchestrator for rapid app development",
+  "main": "dist/mcp-server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/demo-app.ts",
+    "demo": "tsx src/demo-app.ts",
+    "auto-demo": "tsx src/auto-demo.ts",
+    "mcp": "tsx src/mcp-server.ts",
+    "mcp:build": "tsc && node dist/mcp-server.js",
+    "test": "vitest",
+    "test:ai": "tsx src/test-real-ai.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "openai": "^4.28.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "prompts": "^2.4.2",
+    "crypto-js": "^4.2.0",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/prompts": "^2.4.9",
+    "@types/fs-extra": "^11.0.4",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}

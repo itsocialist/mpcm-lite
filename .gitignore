@@ -1,0 +1,17 @@
+node_modules/
+dist/
+output/
+.env
+.env.local
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+claude-config-update.json
+
+# Generated apps (keep some for examples)
+output/*
+!output/.gitkeep
+!output/example-todo-app/

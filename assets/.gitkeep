@@ -1,0 +1,3 @@
+# Create a placeholder for demo assets
+echo "Demo GIF will go here" > demo.gif
+echo "Architecture diagram will go here" > architecture.png
