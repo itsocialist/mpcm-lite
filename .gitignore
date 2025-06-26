@@ -1,17 +1,57 @@
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Production
 dist/
+build/
+
+# Generated apps
 output/
+
+# Environment variables
 .env
 .env.local
+.env.*.local
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# IDE files
 .idea/
 .vscode/
 *.swp
 *.swo
-claude-config-update.json
+*~
 
-# Generated apps (keep some for examples)
-output/*
-!output/.gitkeep
-!output/example-todo-app/
+# Test coverage
+coverage/
+.nyc_output/
+
+# Lock files (for libraries)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Internal documents
+CONTINUATION_PROMPT.md
+IMPLEMENTATION_PLAN.md
+LANDING_PAGE_COPY.md
+LAUNCH_CHECKLIST.md
+RESULTS.md
+claude-config-update.json
+internal/
+docs/internal/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
