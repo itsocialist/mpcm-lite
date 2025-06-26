@@ -71,6 +71,9 @@ cp .env.example .env
 # Install dependencies
 npm install
 
+# If you encounter any issues, try:
+# rm -rf node_modules && npm install
+
 # Run the demo
 npm run demo
 
