@@ -3,6 +3,26 @@
   "version": "1.0.0",
   "description": "MPCM-Lite - Lightweight AI orchestrator for rapid app development",
   "main": "dist/mcp-server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsocialist/mpcm-lite.git"
+  },
+  "keywords": [
+    "ai",
+    "code-generation",
+    "mcp",
+    "claude",
+    "openai",
+    "nextjs",
+    "orchestration",
+    "development-tools"
+  ],
+  "author": "FireFly TSM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsocialist/mpcm-lite/issues"
+  },
+  "homepage": "https://github.com/itsocialist/mpcm-lite#readme",
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/demo-app.ts",
